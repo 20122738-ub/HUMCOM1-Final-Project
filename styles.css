@@ -1,0 +1,29 @@
+/* styles.css */
+body {
+    background-color: #FAF8F2;
+    }
+    h1 {
+        color: black;
+        font-family: 'Franklin Gothic Medium';
+    }
+    h2 {
+        color: black;
+        font-family: tahoma;
+    }
+    h3 {
+        color: black;
+        font-family: tahoma;
+    }
+    p {
+        color: black;
+        font-family: verdana;
+        font-size: 20px;
+    }
+    .header {
+        padding: 10px;
+        text-align: left;
+        background: #FFFFFF;
+        color: white;
+        font-size: 30px;
+    }
+    .content {padding:20px;}
