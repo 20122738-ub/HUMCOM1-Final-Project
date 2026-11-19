@@ -4,7 +4,7 @@ body {
     }
     h1 {
         color: black;
-        font-family: 'Franklin Gothic Medium';
+        font-family: 'tahoma';
     }
     h2 {
         color: black;
@@ -17,13 +17,42 @@ body {
     p {
         color: black;
         font-family: verdana;
-        font-size: 20px;
     }
     .header {
         padding: 10px;
         text-align: left;
         background: #FFFFFF;
-        color: white;
-        font-size: 30px;
+    }
+    .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .text1-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      
+      .text1-box {
+        flex: 1;
+      }
+      
+      .pic1-image {
+        width: 600px;
+        height: auto;
+        position: relative;
+        left: -400px;
+      }
+      .band {
+        padding: 50px;
+        text-align: left;
+        background: #FFFFFF;
+      }
+      .bottomtext1-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
     .content {padding:20px;}
