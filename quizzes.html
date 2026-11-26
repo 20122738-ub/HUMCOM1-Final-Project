@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+		<title>
+			Quizzes &amp; Activities | TechWise
+		</title>
+		<link href="styles.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="topline">
+			<span>
+				A little learning. A lot more confidence.
+			</span>
+			<span>
+				Beginner-friendly &middot; Learn at your own pace
+			</span>
+		</div>
+		<header>
+			<div class="navwrap">
+				<a class="brand" href="index.html">
+					<img src="images/techwise-logo.png" alt="TechWise Logo">
+					TechWise
+				</a>
+				<nav>
+					<a class="" href="index.html">
+						Home
+					</a>
+					<a class="" href="about.html">
+						About Us
+					</a>
+					<a class="" href="courses.html">
+						Courses
+					</a>
+					<a class="" href="tutorials.html">
+						Tutorials
+					</a>
+					<a class="active" href="quizzes.html">
+						Quizzes &amp; Activities
+					</a>
+					<a class="" href="safety.html">
+						Internet Safety
+					</a>
+					<a class="" href="progress.html">
+						My Progress / Contact Us
+					</a>
+				</nav>
+				<a class="nav-cta" href="courses.html">
+					Start learning
+				</a>
+			</div>
+		</header>
+		<main>
+			<div class="container breadcrumb">
+				<a href="index.html">
+					Home
+				</a>
+				&rsaquo;　Quizzes &amp; Activities
+			</div>
+			<section class="hero">
+				<div class="container hero-grid">
+					<div>
+						<p class="eyebrow">
+							Practice builds confidence
+						</p>
+						<h1>
+							See what you know.
+							<br/>
+							Learn as you go.
+						</h1>
+						<p class="lead">
+							Try a friendly knowledge check or a hands-on activity. Take your time&mdash;every explanation helps you understand the next step.
+						</p>
+					</div>
+					<div class="card">
+						<h3>
+							Progress, not perfection.
+						</h3>
+						<p>
+							No timer. Retry any quiz. Review the answers and revisit a lesson whenever you need to.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container grid two">
+					<div class="card">
+						<p class="eyebrow">
+							Multiple-choice practice
+						</p>
+						<h2>
+							A small check-in on email.
+						</h2>
+						<p class="meta">
+							Email essentials &middot; Question 1 of 5
+						</p>
+						<h3>
+							Which field should contain the recipient&rsquo;s email address?
+						</h3>
+						<form id="quizForm">
+							<label class="quiz-option">
+								<input name="answer" type="radio" value="Subject"/>
+								Subject
+							</label>
+							<label class="quiz-option">
+								<input name="answer" type="radio" value="To"/>
+								To
+							</label>
+							<label class="quiz-option">
+								<input name="answer" type="radio" value="Message body"/>
+								Message body
+							</label>
+							<label class="quiz-option">
+								<input name="answer" type="radio" value="Attachment"/>
+								Attachment
+							</label>
+							<button class="btn" type="submit">
+								Check answer
+							</button>
+						</form>
+						<div class="result" id="quizResult" role="status">
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<h3>
+								A helpful way to learn
+							</h3>
+							<ol class="checklist">
+								<li>
+									Read the whole question.
+								</li>
+								<li>
+									Choose the answer that feels right.
+								</li>
+								<li>
+									Check the explanation&mdash;not just the score.
+								</li>
+							</ol>
+							<a href="tutorials.html">
+								Revisit the email tutorial &rarr;
+							</a>
+						</div>
+						<div class="card" style="margin-top:16px">
+							<h3>
+								Your sample quiz results
+							</h3>
+							<p>
+								Computer fundamentals
+								<strong style="float:right">
+									5/5
+								</strong>
+							</p>
+							<p>
+								Internet navigation
+								<strong style="float:right">
+									4/5
+								</strong>
+							</p>
+							<p>
+								Email quiz: not completed
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section cream">
+				<div class="container">
+					<p class="eyebrow">
+						Try an identification activity
+					</p>
+					<h2>
+						Can you name these computer parts?
+					</h2>
+					<p>
+						Choose a name for each device. Use every name once. This separate practice activity does not affect your quiz score.
+					</p>
+					<div class="grid">
+						<div class="card">
+							<div class="icon">
+								&rect;
+							</div>
+							<h3>
+								Device A
+							</h3>
+							<p>
+								Shows words, pictures and windows.
+							</p>
+							<select id="deviceA">
+								<option value="">
+									Choose a name
+								</option>
+								<option>
+									Monitor
+								</option>
+								<option>
+									Keyboard
+								</option>
+								<option>
+									Mouse
+								</option>
+							</select>
+						</div>
+						<div class="card">
+							<div class="icon">
+								⌨
+							</div>
+							<h3>
+								Device B
+							</h3>
+							<p>
+								Lets you type letters and numbers.
+							</p>
+							<select id="deviceB">
+								<option value="">
+									Choose a name
+								</option>
+								<option>
+									Monitor
+								</option>
+								<option>
+									Keyboard
+								</option>
+								<option>
+									Mouse
+								</option>
+							</select>
+						</div>
+						<div class="card">
+							<div class="icon">
+								🖱
+							</div>
+							<h3>
+								Device C
+							</h3>
+							<p>
+								Moves the pointer and selects things.
+							</p>
+							<select id="deviceC">
+								<option value="">
+									Choose a name
+								</option>
+								<option>
+									Monitor
+								</option>
+								<option>
+									Keyboard
+								</option>
+								<option>
+									Mouse
+								</option>
+							</select>
+						</div>
+					</div>
+					<button class="btn" id="matchBtn" style="margin-top:18px">
+						Check my matches
+					</button>
+					<div class="result" id="matchResult">
+					</div>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<p class="eyebrow">
+						Completed result &middot; Sample learner
+					</p>
+					<h2>
+						Internet navigation: your review.
+					</h2>
+					<div class="card">
+						<h3>
+							Nice work, Alex! &middot; 80%
+						</h3>
+						<p>
+							4 of 5 answers correct. Review why HTTPS alone does not prove a website is trustworthy.
+						</p>
+						<div class="safety">
+							<strong>
+								Remember:
+							</strong>
+							HTTPS protects the connection, not the honesty of the site. Scam websites can use HTTPS too.
+						</div>
+						<a href="courses.html">
+							Keep the learning going &rarr;
+						</a>
+					</div>
+				</div>
+			</section>
+			<script>
+				document.getElementById('quizForm').addEventListener('submit',function(e){e.preventDefault();const v=document.querySelector('input[name="answer"]:checked');const r=document.getElementById('quizResult');r.style.display='block';if(!v){r.textContent='Please choose an answer first.';return;}r.textContent=v.value==='To'?'Correct! The To field contains the recipient’s email address.':'Not quite. The correct answer is To. This field contains the recipient’s email address.';});
+document.getElementById('matchBtn').addEventListener('click',function(){const vals=[deviceA.value,deviceB.value,deviceC.value];const r=document.getElementById('matchResult');r.style.display='block';if(vals.some(v=>!v)){r.textContent='Choose a name for all three devices first.';return;}let score=(vals[0]==='Monitor')+(vals[1]==='Keyboard')+(vals[2]==='Mouse');r.textContent=score+'/3 correct. '+(score===3?'Excellent work!':'Review the device descriptions and try again.');});
+			</script>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="footer-grid">
+					<div>
+						<div class="brand">
+							<img src="images/techwise-logo.png" alt="TechWise Logo">
+							TechWise
+						</div>
+						<p>
+							Digital literacy training for everyday life.
+							<br/>
+							A more confident you.
+						</p>
+						<p>
+							hello@techwise.org
+						</p>
+					</div>
+					<div>
+						<h3>
+							Explore
+						</h3>
+						<a href="index.html">
+							Home
+						</a>
+						<a href="about.html">
+							About Us
+						</a>
+						<a href="courses.html">
+							Courses
+						</a>
+						<a href="tutorials.html">
+							Tutorials
+						</a>
+						<a href="quizzes.html">
+							Quizzes &amp; Activities
+						</a>
+						<a href="safety.html">
+							Internet Safety
+						</a>
+						<a href="progress.html">
+							My Progress / Contact Us
+						</a>
+					</div>
+					<div>
+						<h3>
+							Learning promise
+						</h3>
+						<p>
+							Clear lessons, practical activities, and helpful guidance. Learn at your own pace and revisit any topic.
+						</p>
+					</div>
+					<div>
+						<h3>
+							Support
+						</h3>
+						<a href="progress.html#contact">
+							Contact Us
+						</a>
+						<a href="safety.html">
+							Internet Safety
+						</a>
+						<a href="tutorials.html">
+							Learning resources
+						</a>
+					</div>
+				</div>
+				<div class="copyright">
+					<span>
+						&copy; 2026 TechWise. Digital literacy training for everyday life.
+					</span>
+					<span>
+						Privacy &middot; Terms &middot; Accessibility
+					</span>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
